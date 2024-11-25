@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Montsarrat', sans-serif;
+
+ 
+}
+
+body{
+    background-image: url('../login/sary/back.jpg');
+    background-size: cover;
+
+}
+
+:root{
+    --primaryColor: hsl(94, 55%, 56%);
+    --hoverColor: hsl(93, 75%, 76%);
+    --paleGreen: hsl(96, 75%, 89%);
+    --WhiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(0, 0%, 18%);
+    --greytext: hsl(0, 0%, 75%);
+    --bgColor: hsl(113, 11%, 85%);
+    --inputColor: hsl(330, 12%, 97%);
+
+    --biggestFontSize:2.5rem;
+    --h1FontSize: 1.5rem;
+    --h2FontSize:1.25rem;
+    --h3FontSize: 1rem;
+    --normalFontSize:.938rem;
+    --smallFontSize: .813rem;
+    --smallestFontSize: .75rem;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+}
+html{
+   font-size: 90%; 
+}
+a{
+    text-decoration: none;
+}
+li{
+  list-style: none;  
+}
+.icon{
+    font-size: var(--h2FontSize);
+    cursor: pointer;
+}
+
+.message{
+    display: none;
+}
+.showMessage{
+    display: block;
+    color: var(--WhiteColor);
+    background:rgb(255, 0, 0);
+    border-radius: 3px;
+    text-align: center;
+}
+.btn{
+    color: var(--WhiteColor);
+    border-radius: 45px;
+    background: rgb(0, 0, 26);
+    padding: .8rem;
+    align-items: center;
+    gap: .5rem;
+}
+.btn .icon {
+    margin-left: .5rem;
+}
+.btn:hover {
+    color: rgb(0, 163, 204);
+    background: rgb(0, 59, 77);
+}
+h1 ,h2 , p , span, .icon{
+    color: var(--blackColor);
+}
+.login{
+    color: var(--WhiteColor);
+}
+.loginPage{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    
+     .container {
+        height: 75vh;
+        width: 60%;
+        margin: auto;
+        border-radius: 10px;
+        backdrop-filter: blur(30px);
+        background: transparent;
+        box-shadow: 0 7px 50px rgb(102, 194, 255);
+        overflow: hidden;
+
+        .photo{
+        display: flex;
+        flex-basis: 50%;
+        width: 70%;
+        height: 100%;
+        padding: 0 1.5rem;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+
+          
+           
+            
+       }
+       .formDiv{
+         flex-basis: 50%;
+         margin: auto;
+         flex-direction: column;
+         gap: 1.5rem;
+         transform: translateY(-1rem);
+        
+
+          .headerDiv{
+            text-align: center;
+            padding: 1.5rem 0;
+
+            
+            h3{
+                font-size: 25px;
+                color: var(--blackColor);
+                font-weight: 600;
+            }
+            
+          }
+         
+       }
+       
+
+    }
+
+
+
+
+}
+.inputDev .input-box{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    margin:  20px  ;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 51);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    padding: 20px 45px 20px ;
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.photos {
+    height: 400px;
+    object-fit: cover;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    color: var(--blackColor);
+    padding-bottom: .5rem;
+}
+.txt{
+    margin-left: 15%;
+}
+.btn{
+    padding: .8rem;
+    border: 45px;
+    color: var(--WhiteColor);
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    gap: .5rem;
+    transition: .3s ease;
+}
+@media screen and (max-width: 602px){
+    .loginPage{
+        .container{
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            padding: 1.5rem;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,766 @@
+.order{
+    margin-bottom: 25px;
+    width: 90%;
+    padding: 10px;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    
+}
+
+.orde{
+  margin-bottom: 25px;
+  width: 90%;
+  padding: 10px;
+  margin-top: rem;
+  margin-left: 7rem;
+  
+}
+.diflist{
+  margin-top: -1rem;
+}
+
+.buton{
+   gap: 2 rem;
+    padding: 10px;
+    width: 25%;
+    background: #fff;
+    border-bottom: solid ;
+    border: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.buton:hover{
+    border-bottom: solid rgb(0, 102, 102);
+    background: rgb(179, 230, 255);
+    transform: scale(1.2);
+    color: rgb(0, 102, 102);
+}
+.imprimer{
+    width: 10%;
+    height: 35px;
+    background: blue;
+    color: #fff;
+    margin-left: 75%;
+}
+.heade{
+    display: flex;
+}
+
+.modal-formulaire{
+    background: #fff;
+    width: 83rem;
+    height: 35rem;
+    margin-left: 0.1%;
+    border-radius: 18px;
+    box-shadow: 0 7px 50px rgb(0, 26, 26);
+    display: flex;
+    overflow-x: hidden;
+}
+
+
+
+.box1 input   {
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 28rem; 
+  padding: 15px;
+  margin-top: 1.5%;
+}
+
+select{
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 28rem; 
+  padding: 15px;
+  margin-top: 1.5%;
+}
+
+label{
+    margin: 7%;
+}
+.bouton{
+    width: 20%;
+    margin-left: 18%;
+    margin-top: 2%;
+    padding: 15px;
+    color: #fff;
+}
+.calcul{
+    background: blue;
+    width: 10rem;
+    border-radius: 5px;
+}
+.annuler{
+    background: red;
+    width: 10rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.box2 input{
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 28rem; 
+  padding: 15px;
+  margin-top: 1.5%;
+}
+.box{
+  margin-top: 2rem;
+  margin-left: 5%;
+  display: flex; 
+  gap: 6rem; 
+  
+  
+}
+.search .i{
+  font-size: 1.2 rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  margin-left: 2%;
+}
+.search{
+  cursor: pointer;
+  background:white;
+  border-radius: 15px;
+  
+}
+.searche{
+  padding: 15px ;
+  margin-top: 0.1px;
+  width: 80rem;
+  border: none;
+
+}
+
+.historique{
+  width: 25rem;
+  border-radius: 15px;
+  height: 32rem;
+  background: white;
+  margin-top: 2rem;
+}
+
+.reponse{
+    position: fixed;
+    color: rgb(0, 102, 102);
+    border: solid 1px black;
+    width: 15rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    
+
+}
+.resultat, h2, p{
+  color: #fff;
+}
+.resultat {
+  position: sticky;
+  top: 0;
+  background:  rgb(0, 102, 102);
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1;
+  color: #fff;
+}
+
+.result-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.result-items > div {
+  flex: 1;
+  margin: 0 10px;
+}
+/*
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70rem;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+.form-container {
+  width: 100%;
+  max-height: 50vh; 
+  text-align: left;
+  overflow-y: auto;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%; 
+}
+
+.fermer {
+  align-self: flex-end;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+*/
+.inpu {
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 60%; 
+  padding: 15px;
+  box-sizing: border-box; 
+}
+.in{
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 70%; 
+  padding: 15px;
+}
+  
+.fromule{
+  margin-top: 5%;
+  margin-left: 5%;
+  display: flex; 
+  gap: 6rem; 
+}
+.form1 input{
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 28rem; 
+  padding: 15px;
+  margin-top: 1.5%;
+}
+.form2 input{
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 28rem; 
+  padding: 15px;
+  margin-top: 1.5%;
+} 
+
+.modal-overla {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+
+.modal-conten {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 35rem;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin-top: -5rem;
+  height: 30rem;
+  
+}
+.modal-content p{
+  color:  rgb(70, 70, 65);
+}
+
+.modal-clos {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+.formModifier{
+  width: 70rem;
+  align-items: center;
+  margin-left: 10%;
+  height: 600px;
+  
+}
+.contenuModifier{
+  margin-top: 2rem;
+  margin-left: 10%;
+  gap: 2rem;
+  overflow-y: auto;
+}
+.contenuModifier input{
+  border-radius: 5px;
+  border: 2px solid rgb(70, 70, 65);
+  width: 25rem; 
+  padding: 15px;
+  margin-top: 1.5%;
+  color: black;
+}
+
+.modif{
+  font-size: 1rem;
+  font-style: italic;
+  color: #fff;
+  padding: 12px;
+  background: rgb(0, 153, 204);
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  width: 35.2rem;
+  border-radius: 5px;
+}
+
+
+.modal-content{
+  margin-top: 2%;
+  height: 50rem;
+  width: 48rem;
+  color: black;
+}
+.clos{
+  margin-top: 39rem;
+  left: 37rem;
+  border-radius: 5px;
+  padding: 12px;
+  background:rgb(179, 0, 0);
+  color: #fff;
+  font-size: 1rem;
+ 
+}
+.modal-content .info p{
+  margin: 0.5rem;
+  border: solid 1px rgb(194, 194, 163);
+  text-align: left;
+  padding: 4px;
+} 
+.date{
+  border: none;
+ text-align: right;
+}
+.modal-content .PL{
+  text-align: left;
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.close{
+  border-radius: 5px;
+  background:rgb(179, 0, 0);
+  color: #fff;
+  padding: 12px;
+  margin-left: 21rem;
+  margin-top: 5rem;
+  width: 90px;
+}
+
+.modal-content .info{
+  margin-top: 2rem;
+}
+.modal-close{
+  margin-top: 6rem;
+  margin-left: 15rem;
+  background: rgb(255, 0, 0);
+  color: #fff;
+  padding: 12px;
+  width: 7rem;
+  border-radius: 5px;
+}
+
+
+
+
+
+.remove-item {
+  background: none;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.remove-item:hover {
+  text-decoration: underline;
+}
+.boto{
+  margin-top: -5rem;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 749px;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 67rem;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin-top: -1rem;
+  height: 65rem;
+  
+}
+
+.modal-clos {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
+
+.sevice{
+  display: flex;
+  gap: 2rem;
+
+}
+.modal-download{
+  color: #fff;
+  background: rgb(51, 173, 255);
+  padding: 15px;
+  width: 7rem; 
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+.telecharger{
+  width: 10rem;
+  margin-top: 0%;
+  margin-left: -23%;
+}
+
+.search--box{
+    margin-left:-50%;
+    background:white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 50px;
+}
+.search--box input{
+    background: transparent;
+    padding: 10px;
+}
+.search--box .i{
+    font-size: 1.2 rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.search--box .i:hover{
+    transform: scale(1.2);
+}
+
+.validation{
+  display: flex;
+  gap: 1rem;
+  margin-top: 3.5rem;
+  margin-left: 39rem; 
+  
+}
+.validation button{
+  font-size: 1.5rem;
+  padding: 5px ;
+  border-radius: 5px;
+  background: #d9534f;
+  height: 2rem;
+}
+
+.modal, .modal-validation, .modal-error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-contente, .modal-validation .modal-contente, .modal-error .modal-contente {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.modal-contente h2, .modal-validation .modal-contente h2, .modal-error .modal-contente h2 {
+  margin-top: 0;
+}
+
+
+
+.multiple-select {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.historique {
+  margin-top: -1rem;
+  height: 29rem;
+}
+.modal-historique{
+  display: flex;
+  gap: 3rem;
+}
+.modal-listes{
+  margin-top: -1rem;
+  background: #fff;
+  width: 54rem;
+  border-radius: 8px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-item .remove-item {
+  background: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.calculer-btn{
+  margin-top: -15rem;
+  margin-left: 68rem;
+}
+.tit{
+  font-size: 1.5rem;
+  text-align: center;
+  width: 85rem;
+  color: #fff;
+  font-style: italic;
+  background: #006666;
+  padding: 5px;
+
+}
+.calculer-orphelin{
+  margin-left: 65rem;
+  gap: 2rem;
+  margin-top: 1.7rem;
+}
+.boutoncalcul{
+  border-radius: 5px;
+  width: 6rem;
+  padding: 10px;
+  background: #006666;
+}
+.boutonAnnuler{
+  border-radius: 5px;
+  width: 6rem;
+  padding: 10px;
+  background:#ff0000;
+  margin-left: 10%;
+}
+
+
+
+
+/* Quand le champ est en focus (cliqué) */
+.input-container input:focus {
+  border-color: #007bff; /* Couleur de la bordure lors du focus */
+}
+
+
+.list{
+  margin-top: 2rem;
+  position: sticky;
+  z-index: 1;
+  
+}
+
+.sauvegarer{
+  margin-left: 3rem;
+  padding: 12px;
+  width: 7rem;
+  border-radius: 5px;
+  background: #00d0ff;
+  color: #fff;
+}
+.anuler{
+  margin-left: 3rem;
+  padding: 12px;
+  width: 7rem;
+  border-radius: 5px;
+  background: #ff0000;
+  color: #fff;
+
+}
+.formemail {
+  display: flex;
+  gap: 2rem;
+}
+
+.formemail input, textarea{
+  border-radius: 5px;
+  border: 1px solid #9ea0a0;
+  margin-top: 1rem;
+  padding: 10px;
+  width: 14rem;
+}
+.btnannuler{
+  margin-left: 2rem;
+  padding: 15px;
+  color: #fff;
+  background: #ff0000;
+  border-radius: 5px;
+  width: 7rem;
+}
+
+.btnenvoyer{
+  margin-left: 2rem;
+  padding: 15px;
+  color: #fff;
+  background: #00d0ff;
+  border-radius: 5px;
+  width: 7rem;
+}
+.email{
+  display: flex;
+  margin-left: -19rem;
+  margin-top: 12rem;
+}
+
+.sms{
+  display: flex;
+  margin-left: -1rem;
+  margin-top: 1rem;
+}
+.entete p{
+ color: #000;
+}
+.entete{
+  margin-top: 2rem;
+  display: flex;
+  gap: 23rem;
+  margin-left: 2rem;
+}
+.quatre{
+  border: 1px solid #000;
+  padding: 60px;
+}
+.demande{
+  margin-top: 2rem;
+  margin-left: 21rem;
+}
+.objet{
+  margin-top: 2rem;
+  margin-left: 6rem;
+  font-size: 2rem;
+}
+.demander p{
+ color: #000;
+ font-size: 1.2rem;
+}
+.demander{
+  margin-top: 2rem;
+}
+
+.numun{
+  margin-left: 18rem;
+}
+.numdeux{
+  margin-left: 5rem;
+}
+.numtrois{
+  margin-left: 2rem;
+}
+.piece p{
+  color: #000;
+  margin-left: rem;
+}
+.piece{
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.conclusion p{
+color: #000;
+}
+.conclusion{
+margin-top: 2rem;
+margin-left: 2rem;
+}
+.sonia p{
+  margin-top: 1rem;
+  color: #000;
+  margin-left: 50rem;
+}
+.quiter{
+  margin-top: -43.5rem;
+  margin-left: 67rem;
+  display: flex;
+  gap: 4rem;
+}
+.fer{
+  font-size: 1rem;
+  background: #fff;
+  
+}
+.tele{
+  margin-top: 44rem;
+  padding: 10px;
+  border-radius: 5px;
+  background: #007bff;
+  color: #fff;
+}
+.fiche{
+  margin-top: -2rem;
+  margin-left: 2rem;
+}
